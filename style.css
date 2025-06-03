@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+.name h1{
+    background-color: rgb(240, 197, 197);
+    text-align: center;
+    align-items: center;
+    padding-top: 90px;
+    height: 240px;
+    width: 1518px;
+}
+.left{
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.right{
+     display: inline;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: right;
+     align-items: right;
+
+}
+.education{
+    padding: 10px;
+    background-color: #DA6C6C;
+    margin-bottom: 10px;
+     color: #EAEBD0
+}
+.skills{
+    padding: 10px;
+    background-color: #CD5656;
+    color: #EAEBD0;
+    margin-bottom:10px;
+}
+.image{
+    background-color: #AF3E3E;
+    padding: 10px;
+    padding-bottom: 100px;
+
+}
+img{
+    height: 100px;
+    width: 400px;
+}
+a{
+    text-decoration: none;
+    color: #EAEBD0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
