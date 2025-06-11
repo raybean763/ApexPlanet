@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fefefe; 
+  color: #333333; 
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  background: #008080; 
+  color: #ffffff;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #e0f2f1; 
+  padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.form-section, .todo-section {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 10px;
+  background: #ff6f61; 
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #ff8a65; 
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
